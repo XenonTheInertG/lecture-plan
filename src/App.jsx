@@ -1,6 +1,6 @@
-import { useState, useRef } from “react”;
+import { useState, useRef } from "react";
 
-const T = “Dr. Iftekhar Ahmed”, D = “Lecturer, Department of Anatomy”, V = “Dissection Hall”, TM = “12.30 to 14.30”;
+const T = "Dr. Iftekhar Ahmed", D = "Lecturer, Department of Anatomy", V = "Dissection Hal", TM = "12.30 to 2.30";
 const REFS = [“Human Anatomy, A.K. Dutta, vol 1”,“Chaurasia’s Human Anatomy, vol 1”,“Singh Textbook of Anatomy, vol II”];
 const EVAL = [“Oral questioning during the session”,“Attendance and participation”,“Item examination on the next class (oral and drawing figure)”];
 const AIDS = [“White board and markers”,“Skeleton & skeletal components”,“Semirealistic image & photographs”];
