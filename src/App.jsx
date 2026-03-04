@@ -8,7 +8,7 @@ const STD_ROWS_END = [
 {segment:“Feedback”,time:“5 mins”,method:“By questioning”,description:“Judge students about present class”},
 {segment:“Summary”,time:“5 mins”,method:“Memorization”,description:“Summarize total class & highlight take home messages”},
 ];
-const EXAM_EVAL = [“Item examination — oral identification”,“Drawing & labelling task”,“Clinical correlation questions”];
+const EXAM_EVAL = [“Item examination  -  oral identification”,“Drawing & labelling task”,“Clinical correlation questions”];
 
 function makeStdStart(prevTopic, topic) {
 return [
@@ -39,7 +39,7 @@ evaluation: EXAM_EVAL, references: REFS, nextTopic: next
 const DATA = {
 “21.06.2025”: { topic:“Thoracic wall formation & thoracic vertebrae”, …makeStd(
 [“To demonstrate the skeletal components forming the thoracic cage”,“To identify and label the thoracic vertebrae and their distinguishing features”,“To describe the articulation of ribs with thoracic vertebrae (costovertebral joints)”,“To explain the unique features of atypical thoracic vertebrae (T1, T10, T11, T12)”,“To identify costal facets on thoracic vertebrae and their significance”,“To correlate thoracic vertebral levels with surface anatomical landmarks”,“To describe movements possible at costovertebral and costotransverse joints”,“To explain the clinical importance of thoracic vertebral anatomy in spinal cord injuries”],
-[{segment:“Thoracic cage & vertebrae demonstration”,time:“20 mins”,method:“Lecture & demonstration”,description:“Show skeleton — identify 12 thoracic vertebrae, costal facets, transverse & spinous processes. Highlight typical vs atypical vertebrae.”},
+[{segment:“Thoracic cage & vertebrae demonstration”,time:“20 mins”,method:“Lecture & demonstration”,description:“Show skeleton  -  identify 12 thoracic vertebrae, costal facets, transverse & spinous processes. Highlight typical vs atypical vertebrae.”},
 {segment:“Group discussion: vertebral features”,time:“15 mins”,method:“Group discussion”,description:“Students identify features on skeleton in groups, label diagrams”},
 {segment:“Costovertebral joints & movements”,time:“15 mins”,method:“Lecture & demonstration”,description:“Demonstrate articulations of ribs with vertebrae, types of joints, movements during respiration”}],
 “Thoracic cavity & sternum”, “Thoracic cavity & sternum”, “General thoracic anatomy”, “Thoracic wall formation & thoracic vertebrae”) },
@@ -55,7 +55,7 @@ const DATA = {
 [“To classify ribs into true, false, and floating ribs with examples”,“To identify the parts of a typical rib: head, neck, tubercle, angle, body, costal groove”,“To describe the features of atypical ribs (1st, 2nd, 10th, 11th, 12th ribs)”,“To define intercostal space and list its contents (muscles, vessels, nerves)”,“To describe the three layers of intercostal muscles and their actions”,“To explain the neurovascular bundle arrangement (VAN) in the costal groove”,“To differentiate typical from atypical intercostal spaces”,“To apply knowledge of intercostal space anatomy to clinical procedures (chest drain insertion)”],
 [{segment:“Classification & features of ribs”,time:“18 mins”,method:“Lecture & demonstration”,description:“Show ribs on skeleton. Classify true/false/floating. Identify parts of typical rib. Demonstrate atypical features of ribs 1, 2, 11, 12.”},
 {segment:“Group activity: rib identification”,time:“15 mins”,method:“Group discussion”,description:“Students identify specific ribs from skeletal specimens and describe features”},
-{segment:“Intercostal space contents & VAN arrangement”,time:“15 mins”,method:“Lecture & demonstration”,description:“Explain muscles, vessels, nerve arrangement. Clinical importance — insert above upper border of lower rib”}],
+{segment:“Intercostal space contents & VAN arrangement”,time:“15 mins”,method:“Lecture & demonstration”,description:“Explain muscles, vessels, nerve arrangement. Clinical importance  -  insert above upper border of lower rib”}],
 “Mediastinum & intercostal nerve & spinal nerve”, “Thoracic cavity & sternum”, “Intercostal spaces & ribs”) },
 
 “24.06.2025”: { topic:“Mediastinum & intercostal nerve & spinal nerve”, …makeStd(
@@ -67,7 +67,7 @@ const DATA = {
 
 “25.06.2025”: { topic:“Bones & joints of the thorax”, …makeStd(
 [“To identify all bony components of the thoracic cage”,“To describe the sternocostal joints and their types (primary and secondary cartilaginous)”,“To describe the costovertebral joints: joint of head of rib and costotransverse joint”,“To explain the movements of ribs during inspiration and expiration (bucket-handle & pump-handle)”,“To identify the costochondral junction and its significance”,“To describe the interchondral joints between 6th-9th costal cartilages”,“To correlate joint anatomy with respiratory mechanics”,“To explain clinical conditions affecting thoracic joints (costochondritis, Tietze syndrome)”],
-[{segment:“Thoracic joints demonstration”,time:“20 mins”,method:“Lecture & demonstration”,description:“Demonstrate all joint types on skeleton — sternocostal, costovertebral, costotransverse, interchondral. Classify each by type.”},
+[{segment:“Thoracic joints demonstration”,time:“20 mins”,method:“Lecture & demonstration”,description:“Demonstrate all joint types on skeleton  -  sternocostal, costovertebral, costotransverse, interchondral. Classify each by type.”},
 {segment:“Group activity: joint identification”,time:“15 mins”,method:“Group discussion”,description:“Students identify joints on specimens and describe their articular surfaces and movements”},
 {segment:“Respiratory movements & clinical correlations”,time:“12 mins”,method:“Lecture & demonstration”,description:“Explain pump-handle and bucket-handle movements, correlate with respiration physiology”}],
 “Review class”, “Mediastinum & intercostal nerve”, “Bones & joints of the thorax”) },
@@ -88,28 +88,28 @@ const DATA = {
 “29.06.2025”: { topic:“Heart with pericardium”, …makeStd(
 [“To describe the position and orientation of the heart in the thoracic cavity”,“To define the pericardium and distinguish fibrous from serous pericardium”,“To describe the two layers of serous pericardium: parietal and visceral (epicardium)”,“To explain the pericardial cavity and its clinical significance (pericardial effusion, cardiac tamponade)”,“To identify the sinuses of pericardium: transverse and oblique”,“To describe the blood supply and nerve supply of the pericardium”,“To explain the surface projection of the heart on the anterior chest wall”,“To describe the anatomical basis of pericardiocentesis”],
 [{segment:“Pericardium layers & sinuses”,time:“20 mins”,method:“Lecture & demonstration”,description:“Demonstrate fibrous and serous pericardium. Explain transverse and oblique sinuses with clinical relevance.”},
-{segment:“Group discussion: pericardial anatomy”,time:“15 mins”,method:“Group discussion”,description:“Students discuss clinical scenarios — cardiac tamponade, pericardiocentesis approach”},
+{segment:“Group discussion: pericardial anatomy”,time:“15 mins”,method:“Group discussion”,description:“Students discuss clinical scenarios  -  cardiac tamponade, pericardiocentesis approach”},
 {segment:“Heart position & surface projection”,time:“15 mins”,method:“Lecture & demonstration”,description:“Show heart position in thorax, surface markings of cardiac borders on anterior chest wall”}],
 “Heart with pericardium (chambers)”) },
 
-“30.06.2025”: { topic:“Heart — chambers, valves & coronary vessels”, …makeStd(
+“30.06.2025”: { topic:“Heart  -  chambers, valves & coronary vessels”, …makeStd(
 [“To identify the external features of the heart: surfaces, borders, and apex”,“To describe the four chambers of the heart and their internal features”,“To identify the atrioventricular and semilunar valves and their positions”,“To describe the sulci of the heart: coronary, anterior and posterior interventricular”,“To describe the conducting system of the heart (SA node, AV node, Bundle of His)”,“To explain blood supply through coronary arteries and cardiac veins”,“To correlate coronary artery anatomy with myocardial infarction territory”,“To identify surface projection of cardiac valves for auscultation”],
 [{segment:“External features & chambers of heart”,time:“20 mins”,method:“Lecture & demonstration”,description:“Demonstrate surfaces, borders, apex, sulci. Open chambers to show internal features, valves and papillary muscles.”},
 {segment:“Group activity: chamber identification”,time:“15 mins”,method:“Group discussion”,description:“Students identify chambers and valves on heart model in groups”},
 {segment:“Coronary arteries & conducting system”,time:“15 mins”,method:“Lecture & demonstration”,description:“Trace left and right coronary arteries. Explain conducting system pathway and clinical relevance in arrhythmias and MI.”}],
-“Heart — great vessels & integration”, “Heart with pericardium”, “Heart — chambers, valves & coronary vessels”) },
+“Heart  -  great vessels & integration”, “Heart with pericardium”, “Heart  -  chambers, valves & coronary vessels”) },
 
-“01.07.2025”: { topic:“Heart — great vessels & integration”, …makeStd(
+“01.07.2025”: { topic:“Heart  -  great vessels & integration”, …makeStd(
 [“To describe the great vessels entering and leaving the heart”,“To explain fetal circulation and changes at birth (foramen ovale, ductus arteriosus)”,“To describe the lymphatic drainage of the heart”,“To explain the nerve supply of the heart (sympathetic and parasympathetic)”,“To discuss congenital heart defects (VSD, ASD, Tetralogy of Fallot)”,“To perform surface marking of the heart and valves”,“To integrate all three days of heart anatomy”],
 [{segment:“Great vessels & fetal circulation”,time:“18 mins”,method:“Lecture & demonstration”,description:“Identify aorta, pulmonary trunk, venae cavae, pulmonary veins. Explain fetal circulation and postnatal changes.”},
 {segment:“Nerve supply, lymphatics & congenital defects”,time:“15 mins”,method:“Lecture & demonstration”,description:“Describe cardiac plexus, lymphatic drainage, common congenital anomalies with anatomical basis”},
 {segment:“Group practical: surface marking exercise”,time:“15 mins”,method:“Group discussion”,description:“Students practice surface marking of heart borders and valve auscultation points on each other”}],
-“Review class”, “Heart — chambers, valves & coronary vessels”, “Heart — great vessels & integration”) },
+“Review class”, “Heart  -  chambers, valves & coronary vessels”, “Heart  -  great vessels & integration”) },
 
 “02.07.2025”: { topic:“Review class on above all topics”, …makeStd(
 [“To revise heart anatomy: chambers, valves, and surfaces”,“To consolidate knowledge of pericardium and its sinuses”,“To review coronary artery distribution and clinical significance”,“To revise conducting system and its clinical relevance”,“To integrate heart and mediastinum anatomy”,“To clarify doubts and address common misconceptions”,“To prepare students for the sternum item exam”],
 [{segment:“Quick quiz: heart anatomy”,time:“10 mins”,method:“Interactive session”,description:“Rapid-fire questions covering all 3 heart sessions”},
-{segment:“Systematic revision: heart & pericardium”,time:“25 mins”,method:“Lecture & demonstration”,description:“Structured review using heart model — pericardium, chambers, valves, coronary vessels, conducting system”},
+{segment:“Systematic revision: heart & pericardium”,time:“25 mins”,method:“Lecture & demonstration”,description:“Structured review using heart model  -  pericardium, chambers, valves, coronary vessels, conducting system”},
 {segment:“Group MCQ solving”,time:“20 mins”,method:“Group discussion”,description:“Students solve clinical scenario questions related to heart anatomy in groups”}],
 “Item exam + sternum”, “Heart with pericardium”, “Review class on heart anatomy”) },
 
@@ -120,17 +120,17 @@ const DATA = {
 
 “06.07.2025”: { topic:“Lung with pleura, trachea & bronchus”, …makeStd(
 [“To describe the shape, surfaces, and borders of each lung”,“To identify the root and hilum of the lung and list their contents”,“To describe the lobes and fissures of right and left lungs”,“To define pleura and distinguish visceral from parietal pleura”,“To identify pleural recesses: costodiaphragmatic and costomediastinal”,“To explain the surface projection of lungs and pleura on the chest wall”,“To describe the trachea: extent, relations, and bifurcation (carina)”,“To describe the primary bronchi and their differences (clinical significance in foreign body)”],
-[{segment:“Lung morphology & pleura demonstration”,time:“20 mins”,method:“Lecture & demonstration”,description:“Show lung specimen — identify lobes, fissures, hilum. Explain parietal vs visceral pleura, pleural recesses, surface projection.”},
+[{segment:“Lung morphology & pleura demonstration”,time:“20 mins”,method:“Lecture & demonstration”,description:“Show lung specimen  -  identify lobes, fissures, hilum. Explain parietal vs visceral pleura, pleural recesses, surface projection.”},
 {segment:“Group discussion: lung borders & pleural recesses”,time:“15 mins”,method:“Group discussion”,description:“Students draw and label lung projection on diagram and discuss pleural aspiration site”},
-{segment:“Trachea & bronchial tree”,time:“15 mins”,method:“Lecture & demonstration”,description:“Describe trachea extent (C6-T4/5), relations, carina. Compare left vs right bronchus — clinical relevance for foreign body inhalation.”}],
-“Lung — bronchopulmonary segments”, “Heart anatomy”, “Lung with pleura, trachea & bronchus”) },
+{segment:“Trachea & bronchial tree”,time:“15 mins”,method:“Lecture & demonstration”,description:“Describe trachea extent (C6-T4/5), relations, carina. Compare left vs right bronchus  -  clinical relevance for foreign body inhalation.”}],
+“Lung  -  bronchopulmonary segments”, “Heart anatomy”, “Lung with pleura, trachea & bronchus”) },
 
-“07.07.2025”: { topic:“Lung — bronchopulmonary segments & clinical anatomy”, …makeStd(
+“07.07.2025”: { topic:“Lung  -  bronchopulmonary segments & clinical anatomy”, …makeStd(
 [“To describe the bronchopulmonary segments of right and left lungs”,“To explain the concept of bronchopulmonary segment as a surgical unit”,“To describe the blood supply of the lungs (pulmonary and bronchial vessels)”,“To describe the lymphatic drainage of the lungs”,“To explain the nerve supply of lungs and pleura (pulmonary plexus)”,“To discuss respiratory conditions with anatomical basis (pneumonia, pneumothorax, lung cancer)”,“To apply knowledge of bronchopulmonary segments in postural drainage”],
 [{segment:“Bronchopulmonary segments & blood supply”,time:“20 mins”,method:“Lecture & demonstration”,description:“Identify 10 right and 8-10 left bronchopulmonary segments. Explain pulmonary and bronchial vessels, lymphatics.”},
 {segment:“Group activity: segment mapping”,time:“15 mins”,method:“Group discussion”,description:“Students map segments to lung lobes and discuss postural drainage positions”},
 {segment:“Clinical correlations”,time:“15 mins”,method:“Lecture & demonstration”,description:“Discuss pneumothorax, pleural effusion, lung collapse with anatomical basis.”}],
-“Review class”, “Lung with pleura, trachea & bronchus”, “Lung — bronchopulmonary segments & clinical anatomy”) },
+“Review class”, “Lung with pleura, trachea & bronchus”, “Lung  -  bronchopulmonary segments & clinical anatomy”) },
 
 “08.07.2025”: { topic:“Review class on above all topics”, …makeStd(
 [“To revise lung morphology, lobes, fissures, and hilum contents”,“To consolidate knowledge of pleura and pleural recesses”,“To review trachea and bronchial tree anatomy”,“To revise bronchopulmonary segments and their clinical applications”,“To integrate heart, lung, and mediastinum anatomy”,“To prepare students for the ribs item exam”],
@@ -147,16 +147,16 @@ const DATA = {
 “10.07.2025”: { topic:“The diaphragm”, …makeStd(
 [“To describe the shape, position, and attachments of the diaphragm”,“To identify the three parts: sternal, costal, and vertebral (crura)”,“To list the three main openings: aortic (T12), oesophageal (T10), vena caval (T8)”,“To describe the structures passing through each diaphragmatic opening”,“To explain the blood supply (phrenic and intercostal arteries)”,“To describe the nerve supply (phrenic nerve C3,4,5)”,“To explain the role of the diaphragm in respiration and increasing intra-abdominal pressure”,“To discuss clinical conditions: hiatus hernia, diaphragmatic hernia, phrenic nerve palsy”],
 [{segment:“Diaphragm anatomy: attachments & openings”,time:“20 mins”,method:“Lecture & demonstration”,description:“Draw diaphragm, show three parts, central tendon. Demonstrate three openings with vertebral levels and structures passing through.”},
-{segment:“Group discussion: diaphragm openings”,time:“15 mins”,method:“Group discussion”,description:“Students complete table of openings — level, structures, and mnemonic (I 8 10 eggs at 12)”},
+{segment:“Group discussion: diaphragm openings”,time:“15 mins”,method:“Group discussion”,description:“Students complete table of openings  -  level, structures, and mnemonic (I 8 10 eggs at 12)”},
 {segment:“Nerve supply, blood supply & clinical correlations”,time:“15 mins”,method:“Lecture & demonstration”,description:“Explain phrenic nerve (C3,4,5 keeps diaphragm alive). Discuss hiatus hernia types and diaphragmatic hernia.”}],
 “The diaphragm (continued)”, “Ribs & intercostal spaces”, “The diaphragm (continued)”, “Ribs & intercostal anatomy”, “The diaphragm”) },
 
-“13.07.2025”: { topic:“The diaphragm — function & clinical correlations”, …makeStd(
+“13.07.2025”: { topic:“The diaphragm  -  function & clinical correlations”, …makeStd(
 [“To consolidate understanding of diaphragm attachments and openings”,“To describe the action of the diaphragm during quiet and forced respiration”,“To explain the role of diaphragm in increasing intra-abdominal pressure”,“To describe the lymphatic drainage of the diaphragm”,“To discuss the referred pain mechanism from diaphragm irritation (shoulder tip pain)”,“To explain developmental origin of the diaphragm and basis of congenital hernias”,“To integrate diaphragm with complete respiratory anatomy”],
 [{segment:“Diaphragm function & respiratory mechanics”,time:“18 mins”,method:“Lecture & demonstration”,description:“How diaphragm contracts during inspiration, increases vertical diameter of chest.”},
 {segment:“Development, lymphatics & referred pain”,time:“15 mins”,method:“Lecture & demonstration”,description:“Embryological development from septum transversum. Referred pain to shoulder tip via phrenic nerve.”},
 {segment:“Group discussion: clinical cases”,time:“15 mins”,method:“Group discussion”,description:“Students analyse cases of hiatus hernia, diaphragmatic hernia, subphrenic abscess”}],
-“Item exam + joints of the thorax”, “The diaphragm”, “The diaphragm — function & clinical correlations”) },
+“Item exam + joints of the thorax”, “The diaphragm”, “The diaphragm  -  function & clinical correlations”) },
 
 “14.07.2025”: { topic:“Item exam + joints of the thorax”, …makeExam(
 [“To assess knowledge of thoracic joint types and their articular surfaces”,“To evaluate understanding of costovertebral and sternocostal joint anatomy”,“To test understanding of respiratory movements at thoracic joints”,“To assess ability to draw and label a costovertebral joint”,“To evaluate clinical applications of joint anatomy”],
@@ -184,11 +184,11 @@ const DATA = {
 
 “20.07.2025”: { topic:“Review class”, …makeStd(
 [“To comprehensively review all thoracic anatomy topics from the entire Thorax Card”,“To integrate knowledge of thoracic wall, cavity, heart, lungs, diaphragm, and mediastinum”,“To address weaknesses identified in the item exam”,“To consolidate clinical correlations across all thoracic topics”,“To prepare students for the end-of-card assessment”,“To identify high-yield topics for university examinations”],
-[{segment:“Comprehensive quiz — all thorax topics”,time:“10 mins”,method:“Interactive session”,description:“MCQs and rapid oral questions covering entire Thorax Card curriculum”},
+[{segment:“Comprehensive quiz  -  all thorax topics”,time:“10 mins”,method:“Interactive session”,description:“MCQs and rapid oral questions covering entire Thorax Card curriculum”},
 {segment:“Review Part 1: thoracic wall & mediastinum”,time:“20 mins”,method:“Lecture & demonstration”,description:“Review thoracic wall, vertebrae, ribs, sternum, intercostal spaces, mediastinum divisions”},
 {segment:“Review Part 2: heart, lungs & diaphragm”,time:“20 mins”,method:“Lecture & demonstration”,description:“Review heart, pericardium, lungs, pleura, trachea, bronchi, diaphragm, oesophagus, vessels”},
 {segment:“Clinical integration discussion”,time:“12 mins”,method:“Group discussion”,description:“Integrated clinical cases involving multiple thoracic structures”}],
-“Next anatomy card”, “Oesophagus”, “Review class — all thorax topics”) },
+“Next anatomy card”, “Oesophagus”, “Review class  -  all thorax topics”) },
 };
 
 const SCHEDULE = [
@@ -250,7 +250,7 @@ document.head.appendChild(s);
 
 const download = async () => {
 if (!sheetRef.current) return;
-showToast(“⏳ Generating PDF…”);
+showToast(“Generating PDF…”);
 try {
 const html2pdf = await loadHtml2Pdf();
 const opt = {
@@ -261,9 +261,9 @@ html2canvas: { scale: 2, useCORS: true },
 jsPDF: { unit: “mm”, format: “a4”, orientation: “portrait” },
 };
 await html2pdf().set(opt).from(sheetRef.current).save();
-showToast(“✅ PDF downloaded!”);
+showToast(“PDF downloaded!”);
 } catch(e) {
-showToast(“❌ PDF failed. Try again.”, “error”);
+showToast(“PDF failed. Try again.”, “error”);
 }
 };
 
@@ -282,7 +282,7 @@ return (
     <div style={{padding:"14px 14px 10px",borderBottom:"1px solid #253050"}}>
       <div style={{color:"#64a0ff",fontSize:"10px",fontWeight:700,letterSpacing:"1px",textTransform:"uppercase",fontFamily:"Arial,sans-serif",marginBottom:3}}>SOMC Batch 63</div>
       <div style={{color:"#e2e8f0",fontSize:"13px",fontFamily:"Arial,sans-serif",fontWeight:600}}>Thorax Card</div>
-      <div style={{color:"#4a6080",fontSize:"9px",fontFamily:"Arial,sans-serif",marginTop:1}}>21.06 – 20.07.2025 · 23 sessions</div>
+      <div style={{color:"#4a6080",fontSize:"9px",fontFamily:"Arial,sans-serif",marginTop:1}}>21.06  -  20.07.2025 . 23 sessions</div>
     </div>
     <div style={{overflowY:"auto",flex:1,paddingBottom:10}}>
       {weeks.map(w=>(
@@ -292,7 +292,7 @@ return (
             const p=DATA[s.date]; const active=sel?.date===s.date;
             return (
               <button key={s.date} className={`sb ${s.isExam?"ex":""} ${active?"on":""}`} onClick={()=>setSel(s)}>
-                <div style={{color:"#718096",fontSize:"9px",fontFamily:"Arial,sans-serif",marginBottom:1}}>Day {s.d} · {s.date}</div>
+                <div style={{color:"#718096",fontSize:"9px",fontFamily:"Arial,sans-serif",marginBottom:1}}>Day {s.d} . {s.date}</div>
                 <div style={{color:s.isExam?"#f6ad55":"#cbd5e0",fontSize:"11px",lineHeight:1.3,fontWeight:s.isExam?700:400}}>{p?.topic}</div>
               </button>
             );
@@ -300,22 +300,22 @@ return (
         </div>
       ))}
     </div>
-    <div style={{padding:"8px 14px",borderTop:"1px solid #253050",fontFamily:"Arial,sans-serif",fontSize:"9px",color:"#4a5568"}}>All 23 plans ready ✓</div>
+    <div style={{padding:"8px 14px",borderTop:"1px solid #253050",fontFamily:"Arial,sans-serif",fontSize:"9px",color:"#4a5568"}}>All 23 plans ready</div>
   </div>
 
   {/* MAIN */}
   <div style={{flex:1,display:"flex",flexDirection:"column",overflow:"hidden"}}>
     <div style={{background:"#0f1523",borderBottom:"1px solid #253050",padding:"9px 18px",display:"flex",alignItems:"center",justifyContent:"space-between"}}>
-      <span style={{color:plan?"#e2e8f0":"#4a6080",fontFamily:"Arial,sans-serif",fontSize:"11px"}}>{plan?`📋 ${plan.topic} — ${sel.date}`:"← Select a session"}</span>
-      {plan && <button onClick={download} style={{cursor:"pointer",border:"none",borderRadius:4,padding:"7px 14px",fontSize:"11px",fontWeight:700,background:"#1565c0",color:"#fff",fontFamily:"Arial,sans-serif"}}>📥 Download PDF</button>}
+      <span style={{color:plan?"#e2e8f0":"#4a6080",fontFamily:"Arial,sans-serif",fontSize:"11px"}}>{plan?`? ${plan.topic}  -  ${sel.date}`:"?Select a session"}</span>
+      {plan && <button onClick={download} style={{cursor:"pointer",border:"none",borderRadius:4,padding:"7px 14px",fontSize:"11px",fontWeight:700,background:"#1565c0",color:"#fff",fontFamily:"Arial,sans-serif"}}>?Download PDF</button>}
     </div>
 
     <div style={{flex:1,overflowY:"auto",background:"#c8c4ba"}}>
       {!plan && (
         <div style={{display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",height:"100%",gap:10}}>
-          <div style={{fontSize:44}}>📋</div>
+          <div style={{fontSize:44}}>?</div>
           <div style={{fontFamily:"Arial,sans-serif",fontSize:"14px",fontWeight:600,color:"#2a3550"}}>Select a class from the calendar</div>
-          <div style={{fontFamily:"Arial,sans-serif",fontSize:"11px",color:"#8a9aaa"}}>All 23 lesson plans are ready — fully editable</div>
+          <div style={{fontFamily:"Arial,sans-serif",fontSize:"11px",color:"#8a9aaa"}}>All 23 lesson plans are ready  -  fully editable</div>
         </div>
       )}
       {plan && (
@@ -331,14 +331,14 @@ return (
             <Field label="Venue:" value={plan.venue} onChange={v=>up("venue",v)}/>
 
             <p style={{margin:"12px 0 4px"}}><strong>Learning objectives:</strong>
-              <span style={{fontFamily:"Arial,sans-serif",fontSize:"9px",background:"#fff8e1",color:"#7a5c00",border:"1px solid #f0c040",borderRadius:3,padding:"1px 6px",marginLeft:8}}>💡 Paste list to auto-split</span>
+              <span style={{fontFamily:"Arial,sans-serif",fontSize:"9px",background:"#fff8e1",color:"#7a5c00",border:"1px solid #f0c040",borderRadius:3,padding:"1px 6px",marginLeft:8}}>? Paste list to auto-split</span>
             </p>
             <ul style={{margin:"0 0 4px 20px",padding:0}}>
               {plan.objectives.map((o,i)=>(
                 <li key={i} style={{margin:"4px 0"}}>
                   <span style={{display:"flex",gap:5,alignItems:"flex-start"}}>
                     <Area value={o} onChange={v=>upList("objectives",i,v)} onPaste={e=>pasteObj(i,e)}/>
-                    <button className="rb" onClick={()=>remItem("objectives",i)}>✕</button>
+                    <button className="rb" onClick={()=>remItem("objectives",i)}>x</button>
                   </span>
                 </li>
               ))}
@@ -350,13 +350,13 @@ return (
               {plan.teachingAids.map((a,i)=>(
                 <li key={i} style={{margin:"4px 0"}}><span style={{display:"flex",gap:5,alignItems:"center"}}>
                   <input value={a} onChange={e=>upList("teachingAids",i,e.target.value)} style={{border:"none",borderBottom:"1px dashed #aab",background:"transparent",fontFamily:"inherit",fontSize:"inherit",outline:"none",padding:"1px 2px",width:"100%"}}/>
-                  <button className="rb" onClick={()=>remItem("teachingAids",i)}>✕</button>
+                  <button className="rb" onClick={()=>remItem("teachingAids",i)}>x</button>
                 </span></li>
               ))}
             </ol>
             <button className="ab" onClick={()=>addItem("teachingAids")}>+ Add Aid</button>
 
-            <p style={{margin:"14px 0 6px"}}><strong>Teaching – learning method</strong></p>
+            <p style={{margin:"14px 0 6px"}}><strong>Teaching  -  learning method</strong></p>
             <table style={{width:"100%",borderCollapse:"collapse"}}>
               <thead><tr>{["Segment","Time","Method","Description"].map(h=><th key={h} style={th}>{h}</th>)}<th style={{...th,width:26}}></th></tr></thead>
               <tbody>
@@ -365,7 +365,7 @@ return (
                     {["segment","time","method","description"].map(c=>(
                       <td key={c} style={td}><Area value={r[c]} onChange={v=>upRow(i,c,v)}/></td>
                     ))}
-                    <td style={{...td,padding:2,textAlign:"center"}}><button className="rb" onClick={()=>up("tableRows",plan.tableRows.filter((_,x)=>x!==i))}>✕</button></td>
+                    <td style={{...td,padding:2,textAlign:"center"}}><button className="rb" onClick={()=>up("tableRows",plan.tableRows.filter((_,x)=>x!==i))}>x</button></td>
                   </tr>
                 ))}
               </tbody>
@@ -377,7 +377,7 @@ return (
               {plan.evaluation.map((e,i)=>(
                 <li key={i} style={{margin:"4px 0"}}><span style={{display:"flex",gap:5,alignItems:"center"}}>
                   <input value={e} onChange={x=>upList("evaluation",i,x.target.value)} style={{border:"none",borderBottom:"1px dashed #aab",background:"transparent",fontFamily:"inherit",fontSize:"inherit",outline:"none",padding:"1px 2px",width:"100%"}}/>
-                  <button className="rb" onClick={()=>remItem("evaluation",i)}>✕</button>
+                  <button className="rb" onClick={()=>remItem("evaluation",i)}>x</button>
                 </span></li>
               ))}
             </ul>
@@ -388,7 +388,7 @@ return (
               {plan.references.map((r,i)=>(
                 <li key={i} style={{margin:"4px 0"}}><span style={{display:"flex",gap:5,alignItems:"center"}}>
                   <input value={r} onChange={e=>upList("references",i,e.target.value)} style={{border:"none",borderBottom:"1px dashed #aab",background:"transparent",fontFamily:"inherit",fontSize:"inherit",outline:"none",padding:"1px 2px",width:"100%"}}/>
-                  <button className="rb" onClick={()=>remItem("references",i)}>✕</button>
+                  <button className="rb" onClick={()=>remItem("references",i)}>x</button>
                 </span></li>
               ))}
             </ul>
